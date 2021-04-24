@@ -13,7 +13,7 @@ public class Main {
 			// String conSstr =
 			// "jdbc:mysql://localhost:3306/classicmodels?user=emre&password=emre&serverTimezone=UTC";
 			String conSstr = "jdbc:mysql://localhost:3306/classicmodels?user=emre&password=emre";
-			Connection conn = DriverManager.getConnection(conSstr); //// .d
+			Connection conn = DriverManager.getConnection(conSstr); //// .dd
 
 			boolean success = conn.isValid(2);
 
